@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  font-style: oblique;
+
+  background-image: url("C:/Users/joe-b/Documents/codenation/week5/todolisttask/src/images/table.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 0%;
+  margin-top: -1%;
+}
+
+#container {
+  margin-left: 25%;
+  margin-top: 1%;
+}
+
+#calcBase {
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 744px;
+  height: fit-content;
+  margin-left: 10%;
+  margin-top: 1%;
+  background-image: url("C:/Users/joe-b/Documents/codenation/week5/todolisttask/src/images/scrollmiddle.gif");
+}
+
+#calcTop {
+  width: 758px;
+  margin-left: 9.6%;
+  margin-bottom: -1%;
+  margin-top: 1%;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("C:/Users/joe-b/Documents/codenation/week5/todolisttask/src/images/scrolltop.gif");
+}
+
+#calcBottom {
+  width: 745px;
+  margin-left: 10%;
+  margin-bottom: -1%;
+
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("C:/Users/joe-b/Documents/codenation/week5/todolisttask/src/images/scrollbottom.gif");
+}
+
+#buttonNumb {
+  width: 500px;
+  height: 30px;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  border: dotted 5px rgba(0, 0, 0, 0.245);
+  background-image: rgba(255, 0, 0, 0);
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+  line-height: 11%;
+}
+
+#fonts {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-style: oblique;
+  background-color: transparent;
+  border: none;
+  border-bottom: dotted;
+  border-color: rgba(0, 0, 0, 0.445);
+}
+
+#archive {
+  pointer-events: none
+}
